@@ -4,7 +4,7 @@ description: "Czytanie firmowej skrzynki (Seohost, IMAP) przez himalaya v2 — T
 version: 1.0.0
 author: Robert
 license: MIT
-platforms: [linux, macos]
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Email, IMAP, Himalaya, ReadOnly]
