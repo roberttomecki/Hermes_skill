@@ -5,6 +5,7 @@ Własne skille dla [Hermes Agent](https://github.com/NousResearch/hermes-agent).
 | Skill | Opis |
 |---|---|
 | `skills/email/poczta-firmowa` | Czytanie firmowej skrzynki (IMAP) przez himalaya v2, tylko odczyt |
+| `skills/email/imap-readonly` | Uniwersalna, angielska wersja powyższego (do publikacji, np. na Agensi); instrukcja w `references/SETUP.md` |
 
 ## Instalacja — Windows (natywny Hermes)
 

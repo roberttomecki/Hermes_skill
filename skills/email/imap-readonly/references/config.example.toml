@@ -1,0 +1,22 @@
+# Himalaya v2 — read-only IMAP account
+# Save as ~/.config/himalaya/config.toml (or set HIMALAYA_CONFIG).
+# All values below are placeholders: replace them with your own.
+
+[accounts.work]
+default = true
+email = "jane.doe@example.com"
+display-name = "Jane Doe"
+
+# IMAP server from your mail provider. A bare host uses imaps:// (TLS, port 993).
+imap.server = "imap.example.com"
+
+imap.sasl.plain.username = "jane.doe@example.com"
+# Keep the password out of this file. Use a file with chmod 600 or a password manager.
+imap.sasl.plain.password.command = "cat ~/.config/himalaya/.password"
+#imap.sasl.plain.password.command = "pass show mail/work"
+
+# If the server rejects AUTHENTICATE PLAIN, use the LOGIN command instead:
+#imap.sasl.login.username = "jane.doe@example.com"
+#imap.sasl.login.password.command = "cat ~/.config/himalaya/.password"
+
+# No smtp.* section on purpose: without one, this account cannot send mail.
