@@ -1,7 +1,7 @@
 ---
 name: poczta-firmowa
 description: "Firmowa skrzynka rto@wideformat.pl (Seohost) przez himalaya v2: czytanie, wyszukiwanie, pisanie i wysyłanie odpowiedzi — wysyłka WYŁĄCZNIE po potwierdzeniu użytkownika. Używaj zamiast wbudowanego skilla himalaya (polecenia v1)."
-version: 2.0.0
+version: 2.1.0
 author: Robert
 license: MIT
 platforms: [linux, macos, windows]
@@ -59,6 +59,9 @@ Warunki wyszukiwania: `date`, `after`, `from`, `to`, `subject`, `body`,
 Wyjście JSON: globalna flaga `--json`, np. `himalaya --json envelope list`.
 
 ## Pisanie i wysyłanie
+
+**Stopka firmowa dodaje się automatycznie** (z `pozdrawiam` i podpisem) — w treści
+NIE pisz pozdrowień, podpisu ani danych firmy.
 
 Treść zapisuj do pliku tymczasowego i podawaj przez `--body-file` (unikasz
 problemów z cudzysłowami i polskimi znakami).
